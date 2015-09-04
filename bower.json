@@ -1,0 +1,25 @@
+{
+  "name": "ejsLoader",
+  "main": "index.js",
+  "version": "1.0.0",
+  "authors": [
+    "Andrew Borovin <a@borovin.com>"
+  ],
+  "description": "systemjs plugin for loading ejs files",
+  "keywords": [
+    "ejs",
+    "systemjs",
+    "plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.10.1"
+  }
+}
