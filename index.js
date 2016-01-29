@@ -1,7 +1,7 @@
-var _ = require('bower_components/lodash/lodash.js');
+var _ = require('lodash');
 
 module.exports = {
-    translate: function(load) {
+    translate: function (load) {
 
         var options = {
             variable: 'params'

@@ -1,0 +1,28 @@
+{
+  "name": "ejsLoader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint -s",
+    "lint": "node ./node_modules/eslint/bin/eslint.js ."
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-yandex": "^1.0.5"
+  },
+  "dependencies": {
+    "lodash": "^4.1.0",
+    "steal": "^0.13.2"
+  },
+  "system": {
+    "npmIgnore": [
+      "devDependencies"
+    ],
+    "npmAlgorithm": "flat",
+    "map": {
+      "./ejs": "./index"
+    }
+  },
+  "author": "a@borovin.com",
+  "license": "MIT"
+}
