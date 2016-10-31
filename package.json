@@ -7,12 +7,12 @@
     "lint": "node ./node_modules/eslint/bin/eslint.js ."
   },
   "devDependencies": {
-    "eslint": "^1.10.3",
+    "eslint": "^3.9.1",
     "eslint-config-yandex": "^1.0.5"
   },
   "dependencies": {
     "lodash": "^4.1.0",
-    "steal": "^0.13.2"
+    "steal": "^0.16.41"
   },
   "system": {
     "npmIgnore": [
